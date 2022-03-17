@@ -1,0 +1,23 @@
+{
+  "name": "BasicDashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "all": "npm run build && npm run prod",
+    "build": "webpack --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "datatables.net": "^1.11.5",
+    "datatables.net-bs5": "^1.11.5",
+    "dattatable": "^1.7.3",
+    "gd-sprest-bs": "^9.3.5",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "node-sass": "^5.0.0"
+  }
+}
